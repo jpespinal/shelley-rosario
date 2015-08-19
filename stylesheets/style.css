@@ -17,10 +17,12 @@ html {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
   -ms-text-size-adjust: 100%;
-  -webkit-text-size-adjust: 100%; }
+  -webkit-text-size-adjust: 100%;
+  font-family: "Arimo", sans-serif;
+  font-size: 16px; }
 
 body {
-  font-size: 16px;
+  font-size: inherit;
   line-height: 1.5;
   /* Unit less value so that all line heights are computed the same. */ }
 
@@ -35,7 +37,6 @@ ul, ol {
   list-style: none; }
 
 a, button {
-  color: inherit;
   transition: 0.2s;
   -moz-transition: 0.2s;
   -webkit-transition: 0.2s; }
@@ -59,5 +60,17 @@ sup {
 
 /* This is the global page where styles are defined. */
 /* This is the layout page where media query styles are defined. */
+@media screen and (min-width: 960px) {
+  body {
+    background-color: #FF0080;
+    padding: 1.25rem; }
+
+  .site {
+    background-color: #191716;
+    height: 100%; }
+
+  .site__header {
+    background-color: #FF0080;
+    margin: 0.25rem; } }
 
 /*# sourceMappingURL=style.css.map */
