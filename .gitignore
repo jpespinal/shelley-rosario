@@ -1,0 +1,16 @@
+*.DS_Store
+
+*.idea/
+
+.sass-cache/
+
+*.map
+
+*.sublime-*
+
+stylesheets/_base.scss
+stylesheets/_global.scss
+stylesheets/_layout.scss
+stylesheets/style.scss
+
+bower_components/
